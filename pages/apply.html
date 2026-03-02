@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Apply — The Manalapan Run Club</title>
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+
+    <div class="top-bar">
+        <div class="container">
+            <span>Manalapan, New Jersey &nbsp;|&nbsp; Est. 2019</span>
+            <div class="top-bar-socials"><a href="https://www.instagram.com/mpanrc">Instagram</a><a href="#">Strava</a><a href="#">Twitter / X</a><a href="#">Facebook</a></div>
+        </div>
+    </div>
+
+    <nav class="navbar">
+        <div class="container">
+            <a href="../index.html" class="nav-brand">
+                <div class="nav-brand-icon">MRC</div>
+                <div class="nav-brand-text">
+                    <span class="nav-brand-name">The Manalapan Run Club</span>
+                    <span class="nav-brand-sub">Manalapan, New Jersey</span>
+                </div>
+            </a>
+            <ul class="nav-links">
+                <li><a href="about.html">About</a></li>
+                <li><a href="principles.html">Our Principles</a></li>
+                <li><a href="#">Members</a></li>
+                <li><a href="events.html">Events</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="https://docs.google.com/forms/d/e/1FAIpQLSfMowXTCjwz6Gep8d021CoDeikyn9wEtvcBTcpu873NVAMjng/viewform?usp=header" class="nav-apply-btn active">Apply</a></li>
+            </ul>
+            <button class="nav-toggle" aria-label="Toggle navigation"><span></span><span></span><span></span></button>
+        </div>
+    </nav>
+
+    <div class="page-header">
+        <div class="container">
+            <div class="breadcrumbs"><a href="../index.html">Home</a> &nbsp;/&nbsp; Apply</div>
+            <h1>Apply for Membership</h1>
+            <p>We accept new members on a rolling basis, with cohorts beginning each spring and fall. Applications are reviewed by the membership committee.</p>
+        </div>
+    </div>
+
+    <!-- Apply Section -->
+    <section class="apply-section">
+        <div class="container">
+            <div class="apply-grid">
+                <!-- Info Column -->
+                <div class="apply-info">
+                    <span class="section-label">Membership</span>
+                    <h3>What We Look For</h3>
+                    <div class="divider"></div>
+                    <p>The Manalapan Run Club is not a casual jogging meetup. We are a committed community of runners who hold ourselves and one another to a high standard of participation, conduct, and mutual support.</p>
+                    <p>That said, we welcome runners of all speeds and experience levels. We don't care about your pace — we care about your commitment. If you show up, put in the work, and treat your fellow members with respect, you belong here.</p>
+
+                    <div class="apply-requirements">
+                        <h5>Requirements</h5>
+                        <ul>
+                            <li>Must be 18 years of age or older</li>
+                            <li>Able to complete a 5K distance (walking permitted)</li>
+                            <li>Commit to attending at least 2 group runs per month</li>
+                            <li>Agree to abide by the club's Principles and Code of Conduct</li>
+                            <li>Annual membership dues of $75 (scholarships available)</li>
+                            <li>Attend one prospective member group run before final acceptance</li>
+                        </ul>
+                    </div>
+
+                    <div class="apply-requirements">
+                        <h5>What to Expect</h5>
+                        <ul>
+                            <li>Application reviewed within 5 business days</li>
+                            <li>Invitation to a prospective member run</li>
+                            <li>Brief conversation with a board member</li>
+                            <li>Official welcome and onboarding within 2 weeks of acceptance</li>
+                        </ul>
+                    </div>
+
+                    <!-- Image placeholder -->
+                    <div class="mission-image" style="margin-top:30px;aspect-ratio:16/10;">
+                        <div class="image-placeholder">
+                            <span class="icon">🤝</span>
+                            <span>Photo — New Member Welcome Run</span>
+                        </div>
+                    </div>
+
+                    <p style="margin-top:24px;font-size:0.9rem;color:var(--warm-gray);">Questions about the application process? Email us at <a href="mailto:membership@manalapanrunclub.org">membership@manalapanrunclub.org</a></p>
+                </div>
+
+                <!-- Form Column -->
+                <div>
+                    <div class="apply-form">
+                        <h3 style="margin-bottom:8px;">Application Form</h3>
+                        <p style="font-size:0.9rem;color:var(--warm-gray);margin-bottom:28px;">Spring 2026 Cohort &nbsp;·&nbsp; Deadline: April 15, 2026</p>
+
+                        <form id="apply-form">
+                            <div class="form-row">
+                                <div class="form-group">
+                                    <label for="first-name">First Name *</label>
+                                    <input type="text" id="first-name" name="first-name" required>
+                                </div>
+                                <div class="form-group">
+                                    <label for="last-name">Last Name *</label>
+                                    <input type="text" id="last-name" name="last-name" required>
+                                </div>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="email">Email Address *</label>
+                                <input type="email" id="email" name="email" required>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="phone">Phone Number</label>
+                                <input type="tel" id="phone" name="phone">
+                            </div>
+
+                            <div class="form-row">
+                                <div class="form-group">
+                                    <label for="age">Age *</label>
+                                    <input type="number" id="age" name="age" min="18" required>
+                                </div>
+                                <div class="form-group">
+                                    <label for="location">City / Town *</label>
+                                    <input type="text" id="location" name="location" placeholder="e.g. Manalapan, NJ" required>
+                                </div>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="experience">Running Experience *</label>
+                                <select id="experience" name="experience" required>
+                                    <option value="">Select your experience level</option>
+                                    <option value="beginner">Beginner (less than 1 year)</option>
+                                    <option value="intermediate">Intermediate (1–3 years)</option>
+                                    <option value="experienced">Experienced (3–5 years)</option>
+                                    <option value="advanced">Advanced (5+ years)</option>
+                                </select>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="longest-distance">Longest Distance Completed</label>
+                                <select id="longest-distance" name="longest-distance">
+                                    <option value="">Select distance</option>
+                                    <option value="5k">5K</option>
+                                    <option value="10k">10K</option>
+                                    <option value="half">Half Marathon</option>
+                                    <option value="marathon">Marathon</option>
+                                    <option value="ultra">Ultra Marathon (50K+)</option>
+                                    <option value="none">Haven't raced yet</option>
+                                </select>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="weekly-mileage">Current Weekly Mileage (approx.)</label>
+                                <input type="text" id="weekly-mileage" name="weekly-mileage" placeholder="e.g. 15-20 miles">
+                            </div>
+
+                            <div class="form-group">
+                                <label for="goals">Running Goals *</label>
+                                <textarea id="goals" name="goals" placeholder="What are you training for? What do you hope to achieve as a member of the club?" required></textarea>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="why-join">Why MRC? *</label>
+                                <textarea id="why-join" name="why-join" placeholder="Tell us why you want to join The Manalapan Run Club specifically. What drew you to our community?" required></textarea>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="referral">How Did You Hear About Us?</label>
+                                <select id="referral" name="referral">
+                                    <option value="">Select one</option>
+                                    <option value="member">Current Member Referral</option>
+                                    <option value="social">Social Media</option>
+                                    <option value="strava">Strava</option>
+                                    <option value="event">Community Event</option>
+                                    <option value="search">Web Search</option>
+                                    <option value="other">Other</option>
+                                </select>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="strava">Strava Profile URL (optional)</label>
+                                <input type="url" id="strava" name="strava" placeholder="https://www.strava.com/athletes/...">
+                            </div>
+
+                            <div class="form-group" style="margin-top:32px;">
+                                <label style="display:flex;align-items:flex-start;gap:10px;text-transform:none;letter-spacing:0;font-weight:400;font-size:0.9rem;cursor:pointer;">
+                                    <input type="checkbox" required style="width:auto;margin-top:4px;">
+                                    <span>I have read and agree to uphold <a href="principles.html" style="text-decoration:underline;">The Manalapan Run Club Principles</a> and Code of Conduct. I understand that membership is contingent upon committee review and a prospective member run. *</span>
+                                </label>
+                            </div>
+
+                            <button type="submit" class="btn btn-primary" style="width:100%;margin-top:16px;text-align:center;">Submit Application</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="site-footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-brand">
+                    <div class="nav-brand-icon">MRC</div>
+                    <p>A premier running community in Central New Jersey dedicated to athletic excellence and meaningful fellowship.</p>
+                    <div class="footer-socials">
+                        <a href="#" class="footer-social-link">IG</a><a href="#" class="footer-social-link">ST</a><a href="#" class="footer-social-link">X</a><a href="#" class="footer-social-link">FB</a><a href="#" class="footer-social-link">YT</a>
+                    </div>
+                </div>
+                <div>
+                    <h5 class="footer-heading">The Club</h5>
+                    <ul class="footer-links"><li><a href="about.html">About Us</a></li><li><a href="principles.html">Our Principles</a></li><li><a href="#">Members</a></li><li><a href="events.html">Events</a></li><li><a href="blog.html">Blog</a></li></ul>
+                </div>
+                <div>
+                    <h5 class="footer-heading">Get Involved</h5>
+                    <ul class="footer-links"><li><a href="https://docs.google.com/forms/d/e/1FAIpQLSfMowXTCjwz6Gep8d021CoDeikyn9wEtvcBTcpu873NVAMjng/viewform?usp=header">Apply</a></li><li><a href="#">Volunteer</a></li><li><a href="#">Sponsor a Run</a></li></ul>
+                </div>
+                <div>
+                    <h5 class="footer-heading">Contact</h5>
+                    <ul class="footer-links"><li><a href="mailto:info@manalapanrunclub.org">info@manalapanrunclub.org</a></li><li><a href="#">Manalapan, NJ 07726</a></li></ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 The Manalapan Run Club. All rights reserved.</p>
+                <div class="footer-bottom-links"><a href="#">Privacy Policy</a><a href="#">Terms of Use</a><a href="#">Code of Conduct</a></div>
+            </div>
+        </div>
+    </footer>
+    <script src="../js/main.js"></script>
+</body>
+</html>
